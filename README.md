@@ -139,7 +139,7 @@ ROBOFLOW_API_KEY=your_private_api_key_here
 ## 👩‍💻 Developed By
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taj-shabreen/YOLOv11-MultiClass-Detection-Web/main/result/developed-by-light-glitch.gif" alt="Developed by Shabreen Taj" width="420">
+  <img src="https://raw.githubusercontent.com/taj-shabreen/YOLOv11-MultiClass-Detection-Web/main/result/developed-by-light-glitch-unscreen.gif" alt="Developed by Shabreen Taj" width="420">
 </p>
 
 <p align="center">
