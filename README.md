@@ -84,17 +84,6 @@ The object detection model was **trained using Roboflow's hosted training pipeli
 - 🧠 Supervision for annotation overlay  
 - 💅 HTML, CSS, JS for frontend  
 
----
-
-<a href="https://universe.roboflow.com/objectdetectionlab-9hw4e/multi-class-object-detection-qjnaq/model/">
-  <img src="https://app.roboflow.com/images/try-model-badge.svg" alt="Try in Roboflow" />
-</a>
-<a href="https://universe.roboflow.com/objectdetectionlab-9hw4e/multi-class-object-detection-qjnaq">
-  <img src="https://app.roboflow.com/images/download-dataset-badge.svg" alt="Download Dataset" />
-</a>
-
----
-
 ## 🔐 API & Access Instructions
 
 > 🧠 **Note:** This project uses a YOLOv11 model hosted on [Roboflow](https://roboflow.com).  
@@ -153,6 +142,18 @@ View results with confidence scores and annotated image
 
 💾 Result image saved locally
 
+## 🧪 Try the Trained Model / Download Dataset
+---
+
+<a href="https://universe.roboflow.com/objectdetectionlab-9hw4e/multi-class-object-detection-qjnaq/model/">
+  <img src="https://app.roboflow.com/images/try-model-badge.svg" alt="Try in Roboflow" />
+</a>
+<a href="https://universe.roboflow.com/objectdetectionlab-9hw4e/multi-class-object-detection-qjnaq">
+  <img src="https://app.roboflow.com/images/download-dataset-badge.svg" alt="Download Dataset" />
+</a>
+
+---
+
 ## 👩‍💻 Developed By
 
 <p align="center">
@@ -166,4 +167,4 @@ View results with confidence scores and annotated image
 </p>
 
 ## 🌟 Contribute or Star
-⭐️ If you liked the project, give it a star!
+ If you liked the project, give it a star⭐️
