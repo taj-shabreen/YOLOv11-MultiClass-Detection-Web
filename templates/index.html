@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YOLO Object Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="main">
+    <div class="container">
+      <h1>🎯 YOLO 11 Object Detection</h1>
+
+      {% if not img_url %}
+        <form method="POST" enctype="multipart/form-data" id="upload-form">
+          <div id="drop-zone" class="drop-zone">
+            <div class="loader" id="loader"></div>
+            <p>📤 Drag & Drop an image here or click to upload</p>
+            <input type="file" name="image" id="file-input" accept="image/*" hidden>
+          </div>
+        </form>
+      {% endif %}
+
+      {% if img_url %}
+        <div class="results" id="results">
+          {% if detections %}
+            <h2>Detected Objects:</h2>
+            <ul>
+              {% for obj in detections %}
+                <li><strong>{{ obj.class }}</strong>: {{ obj.confidence }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p class="no-objects">🚫 No objects detected. Try uploading a clearer image.</p>
+          {% endif %}
+
+          <div class="image-container">
+            <img src="{{ img_url }}" alt="Detected Image">
+          </div>
+
+          <a class="btn" href="{{ url_for('index') }}">🔁 Detect Another Image</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      💻 Developed by
+      <a href="https://github.com/taj-shabreen" target="_blank">Shabreen Taj</a>
+      | 🤖 Model trained using
+      <a href="https://roboflow.com" target="_blank">Roboflow</a>
+    </p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

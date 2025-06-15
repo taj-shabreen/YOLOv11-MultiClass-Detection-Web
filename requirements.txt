@@ -1,0 +1,6 @@
+inference
+supervision
+python-dotenv
+opencv-python
+flask
+roboflow
