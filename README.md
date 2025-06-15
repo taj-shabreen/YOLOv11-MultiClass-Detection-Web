@@ -14,7 +14,6 @@
 This is a **YOLOv11-powered multi-class object detection web interface**, built using **Flask** and styled for a sleek, interactive user experience.
 
 The object detection model was **trained using Roboflow's hosted training pipeline** using images combined from various public Universe projects.  
-The complete frontend & backend is **developed by Shabreen Taj**.
 
 ---
 
@@ -109,19 +108,21 @@ python -m venv .venv
 
 pip install -r requirements.txt
 ```
-📄 Create .env file
+
+## 🔐 API & Access Instructions
+
+> 🧠 **Note:** This project uses a YOLOv11 model hosted on [Roboflow](https://roboflow.com).  
+> Users must use their **own API key** to access the model.
+
+### ⚙️ How to Get Started
+
+1. **Create a free Roboflow account** → [https://roboflow.com](https://roboflow.com)
+2. **Go to your workspace** and generate a **Private API Key**
+3. **Create a `.env` file** in your project directory and add your API key:
 ```
 ROBOFLOW_API_KEY=your_private_api_key_here
 ```
-## 🔐 API & Access Instructions
 
-🔐 Your workspace and API key remain secure
-
-🗝️ Model access requires user's own Roboflow API key
-
-🧠 Others cannot modify your model or use your credits
-
-✅ Safe for GitHub public usage (if .env is ignored)
 
 ## ✨ Features
 ✅ Clean drag-and-drop or upload interface
@@ -144,7 +145,7 @@ ROBOFLOW_API_KEY=your_private_api_key_here
 
 <p align="center">
   <a href="https://github.com/taj-shabreen" target="_blank">
-    🔗 github.com/taj-shabreen
+    <img src="https://img.shields.io/badge/GitHub-%40taj--shabreen-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub @taj-shabreen">
   </a>
 </p>
 
