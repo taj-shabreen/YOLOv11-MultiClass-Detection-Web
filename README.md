@@ -37,10 +37,10 @@ The complete frontend & backend is **developed by Shabreen Taj**.
 ## 📊 Model Performance
 
 ### Training Graphs
-![Training Graph](training-graph.png)
+![Training Graph](result/traininggraph.png)
 
 ### Advanced Metrics
-![Advanced Training Graph](advanced-training-graph.png)
+![Advanced Training Graph](result/advancedtraining.png)
 
 > **Model Type**: YOLOv11 (Fast)  
 > **mAP@50**: 34.1% | **Precision**: 37.5% | **Recall**: 37.1%  
@@ -147,7 +147,6 @@ ROBOFLOW_API_KEY=your_private_api_key_here
     🔗 github.com/taj-shabreen
   </a>
 </p>
-
 
 ## 🌟 Contribute or Star
 ⭐️ If you liked the project, give it a star!
