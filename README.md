@@ -137,9 +137,9 @@ ROBOFLOW_API_KEY=your_private_api_key_here
 💾 Result image saved locally
 
 ## 👩‍💻 Developed By
-<!-- Animated "Developed by" with glowing name -->
+
 <p align="center">
-  <img src="https://github.com/taj-shabreen/taj-shabreen/assets/139942102/4ac1f6cb-1181-4006-b1c6-3cd0f0f982a3" alt="Developed by Shabreen Taj" width="420">
+  <img src="https://raw.githubusercontent.com/taj-shabreen/YOLOv11-MultiClass-Detection-Web/main/result/developed-by-glitch.png" alt="Developed by Shabreen Taj" width="420">
 </p>
 
 <p align="center">
@@ -147,6 +147,7 @@ ROBOFLOW_API_KEY=your_private_api_key_here
     🔗 github.com/taj-shabreen
   </a>
 </p>
+
 
 ## 🌟 Contribute or Star
 ⭐️ If you liked the project, give it a star!
