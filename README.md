@@ -95,20 +95,6 @@ The object detection model was **trained using Roboflow's hosted training pipeli
 
 ---
 
-## 🚀 How to Run Locally
-
-```bash
-git clone https://github.com/taj-shabreen/YOLOv11-MultiClass-Detection-Web.git
-
-cd YOLOv11-MultiClass-Detection-Web
-
-python -m venv .venv
-
-.venv\Scripts\activate  # or source .venv/bin/activate
-
-pip install -r requirements.txt
-```
-
 ## 🔐 API & Access Instructions
 
 > 🧠 **Note:** This project uses a YOLOv11 model hosted on [Roboflow](https://roboflow.com).  
@@ -122,7 +108,37 @@ pip install -r requirements.txt
 ```
 ROBOFLOW_API_KEY=your_private_api_key_here
 ```
+## ⚙️ Installation & Running the App
 
+### 📁 Clone the Repository
+
+```bash
+git clone https://github.com/taj-shabreen/YOLOv11-MultiClass-Detection-Web.git
+cd YOLOv11-MultiClass-Detection-Web
+```
+📦 Install Dependencies
+Make sure you have Python 3.7+ installed. Then install the required libraries using:
+```
+pip install -r requirements.txt
+```
+🔐 Set Up API Key
+
+🚀 Run the App
+Launch the web app locally:
+```
+python app.py
+```
+Then open your browser and go to:
+```
+http://127.0.0.1:5000
+```
+You'll be able to:
+
+Drag & drop an image
+
+Detect multiple object classes
+
+View results with confidence scores and annotated image
 
 ## ✨ Features
 ✅ Clean drag-and-drop or upload interface
